@@ -152,7 +152,7 @@ nav ul .item {
 } 
 
 .banner .info:hover {
-    clip-path: circle(300px at 50px 50px);
+    clip-path: circle(300px at 100px 100px);
     animation: none;
 }
 
