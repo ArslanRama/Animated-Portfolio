@@ -154,9 +154,11 @@ nav ul .item {
 .banner .info:hover {
     clip-path: circle(300px at 100px 100px);
     animation: none;
-}
+    background: transparent;
+} 
 
-.info-icon {
+
+.banner .info-icon {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -164,13 +166,8 @@ nav ul .item {
     line-height: 100px;
 }
 
-.info:hover .info-icon {
-    /* background: #FF69B4; */
-    background: transparent;
-}
-
 .info-text {
-    padding: 8px 12px;
+    padding-left: 20px;
     position: relative;
 }
 
