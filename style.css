@@ -201,7 +201,7 @@ nav ul .item {
 }
 
 .banner h1:nth-child(1):before {
-    content: attr(data-text1);
+    content: attr(text1);
     position: absolute;
     top: 0;
     left: 0;
@@ -229,7 +229,7 @@ nav ul .item {
 }
 
 .banner h1:nth-child(2):before {
-    content: attr(data-text2);
+    content: attr(text2);
     position: absolute;
     top: 0;
     left: 0;
